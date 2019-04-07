@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "electron dist/main.js",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
